@@ -1,6 +1,6 @@
 
 
-export const userReducer= (state = [], action)=>{
+export const usersReducer= (state = [], action)=>{
     switch (action.type) {
         case 'addUser':
             
